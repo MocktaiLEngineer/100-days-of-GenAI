@@ -70,3 +70,7 @@
 - [x] Learnt how to build a Bigram Language Model, using the Counting based approach (Statistical approach), and using the Neural Network framework.
 - [x] Compared the results of the Statistical approach, and the Neural Network approach. We achieved a negative log-likelihood loss of ~2.09 with the Statistical approach, and a loss of ~2.33 with the Neural Network based approach. To reason about why the Neural Network achieves a loss of ~2.33 which is much higher than ~2.09 could be a lot of things, but I'm assuming that for the NN to encode all of the information in a (vocab_size * 2, vocab_size) matrix seems to be the problem.
 - [x] Experimented with a different approach, where, after one-hot encoding the X's, instead of making a 54-sized row vector, I decided to add the two 27-sized row vectors to output one 27-sized row vector, however, this approach didn't seem to converge the loss too much, however, performed better than the Bigram approach by giving a loss of ~2.40.
+- [ ] (Incomplete) - Try to incorporate a bigger vocab, and train the trigram model to coverge to a lower loss.
+
+
+
